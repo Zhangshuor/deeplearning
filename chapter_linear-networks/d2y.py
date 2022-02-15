@@ -5,6 +5,7 @@ import numpy as np
 x = torch.tensor([math.pi / 2, math.pi], requires_grad=True)
 y = x ** 3 + torch.cos(x)
 
+
 true_dy = 3 * x ** 2 - torch.sin(x)
 true_d2y = 6 * x - torch.cos(x)
 
