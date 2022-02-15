@@ -39,3 +39,4 @@ for epoch in range(num_epochs):
         trainer.step()
     l = loss(net(features), labels)
     print(f'epoch {epoch + 1},loss {l:f}')
+    
